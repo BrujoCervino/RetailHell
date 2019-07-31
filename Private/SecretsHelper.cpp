@@ -44,7 +44,7 @@ void ASecretsHelper::OverrideGlobalTimeDilation(const ETimeDilation DilationStat
 	float NewTimeDilation = 0.0f;
 	
 	// Store the standard time
-	constexpr float StandardTime = 1.0f;
+	static constexpr float StandardTime = 1.0f;
 	
 	// Switch by dilation state
 	switch( DilationState )

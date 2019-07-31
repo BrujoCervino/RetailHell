@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "TEST_TMAP.generated.h"
 
+/*
+	Date created: 28/07/19
+	A test for UE4's map data structure.
+*/
 UCLASS()
 class SMALLSCOPE_API ATEST_TMAP : public AActor
 {
